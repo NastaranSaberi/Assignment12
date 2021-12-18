@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nastaran Saberi">
+    <meta name="description" content="طراحی ماشین حساب ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calculator">
+        <input type="text" class="input" id="txtResult">
+        <div id="buttons">
+            <div class="key"><button class="item" onclick="clr()">C</button></div>
+            <div class="key"><button class="item" onclick="pn()">+/-</button></div>
+            <div class="key"><button class="item" item onclick="percent()">%</button></div>
+            <div class="key"><button class="item" onclick="opertion(this);">/</button></div>
+            <div class="key"><button class="item" onclick="btnNumber(this);">7</button></div>
+            <div class="key"><button class="item" onclick="btnNumber(this);">8</button></div>
+            <div class="key"><button class="item" onclick="btnNumber(this);">9</button></div>
+            <div class="key"><button class="item" onclick="opertion(this);">*</button></div>
+            <div class="key"><button class="item" onclick="btnNumber(this);">4</button></div>
+            <div class="key"><button class="item" onclick="btnNumber(this);">5</button></div>
+            <div class="key"><button class="item" onclick="btnNumber(this);">6</button></div>
+            <div class="key"><button class="item" onclick="opertion(this);">-</button></div>
+            <div class="key"><button class="item" onclick="btnNumber(this);">1</button></div>
+            <div class="key"><button class="item" onclick="btnNumber(this);">2</button></div>
+            <div class="key"><button class="item" onclick="btnNumber(this);">3</button></div>
+            <div class="key"><button class="item" onclick="opertion(this);">+</button></div>
+            <div class="key"><button class="item" onclick="btnNumber(this);">0</button></div>
+            <div class="key"><button class="item" onclick="p();">.</button></div>
+            <div class="key" id="khas" onclick="calc()"><button class="itemkhas">=</button></div>
+
+
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
